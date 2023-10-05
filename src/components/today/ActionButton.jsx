@@ -50,7 +50,7 @@ const ActionButton = (props) => {
 
       {habit.doneStatus === "notdone" && (
         <span className={styles.habitCardCrossIcon}>
-          <i class="fa-solid fa-square-xmark" onClick={handleNoStatus}></i>
+          <i className="fa-solid fa-square-xmark" onClick={handleNoStatus}></i>
         </span>
       )}
     </div>

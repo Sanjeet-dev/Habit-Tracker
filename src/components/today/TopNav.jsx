@@ -11,7 +11,7 @@ const TopNav = () => {
     <div className={styles.topnav}>   
         <div className={styles.navLeft}>
           <div className={styles.navLeftElem}>
-            <Link className={styles.decorationLogo} to='/'> Habit Tracker React </Link>
+            <Link className={styles.decorationLogo} to='/'> Habit Tracker Web App </Link>
           </div>
 
           <div className={styles.navLeftElem}>
