@@ -23,7 +23,7 @@ const Home = () => {
               {}
          </div>
          <div className={styles.addHabit}>
-                 <input type="text" placeholder="Add Habit..." value={inputData} onChange={(event)=>setInputData(event.target.value)} />
+                 <input type="text" placeholder="Create New Habit..." value={inputData} onChange={(event)=>setInputData(event.target.value)} />
                  <i class="fa-solid fa-plus" onClick={handleAddHabit} ></i>
          </div>
       <div className={styles.listHabit}> 

@@ -1,8 +1,9 @@
-.container{
+/* .container{ */
    
     /* background-color:azure; */
-    margin: auto ;
-}
+    /* margin: auto ; */
+
+/* } */
 
 .addHabit{
     margin: auto;
@@ -10,6 +11,7 @@
     background-color: lightgray;
     padding: 10px;
     margin-top: 50px;
+    border-radius:5px;
 }
 
 .addHabit input{
@@ -30,6 +32,7 @@
     width: 100% ; 
     height: fit-content ; 
     border: 1px solid #a1f7e1; 
+    border-radius:15px;
     background-color: lightgray;
     padding: 10px ;
     margin: 20px 0px;
@@ -61,12 +64,12 @@
 
 .habitCardCheckIcon{
    font-size: 20px;
-   color: black ;
+   color: blueviolet;
 }
 
 .habitCardCrossIcon{
     font-size: 20px ;
-    color: red ;
+    color: crimson;
 }
 
 
